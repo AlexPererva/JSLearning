@@ -7,3 +7,14 @@
  *
  * 3. Создайте многострочный комментарий
  */
+
+
+// One-line comment
+
+const myAge = 26 // my age
+
+/**
+ * few
+ * lines
+ * comment
+ */
