@@ -12,3 +12,9 @@
  *
  * 4. Вызовите функцию
  */
+
+const oneMinusTwo = function (firstNumber, secondNumber) {
+    return firstNumber - secondNumber
+}
+
+console.log(oneMinusTwo(10,5))
