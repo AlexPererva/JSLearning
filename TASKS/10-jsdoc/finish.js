@@ -13,6 +13,13 @@
  * 4. Вызовите функцию
  */
 
+/**
+ * 
+ * @param {Number} firstNumber 
+ * @param {Number} secondNumber 
+ * @returns {Number}
+ */
+
 const oneMinusTwo = function (firstNumber, secondNumber) {
     return firstNumber - secondNumber
 }
