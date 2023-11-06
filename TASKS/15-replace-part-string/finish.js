@@ -6,3 +6,8 @@
  *
  * 3. Выведите значение второй переменной в консоль
  */
+
+let originalMessage = 'Good Morning'
+
+const updatedMessage = originalMessage.replace('Morning', 'Evening')
+console.log(updatedMessage)
