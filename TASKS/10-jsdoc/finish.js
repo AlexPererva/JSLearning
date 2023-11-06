@@ -13,15 +13,18 @@
  * 4. Вызовите функцию
  */
 
+
 /**
+ * Returns diff of two numbers
  * 
- * @param {Number} firstNumber 
- * @param {Number} secondNumber 
- * @returns {Number}
+ * @param {number} firstNumber 
+ * @param {number} secondNumber 
+ * @returns {number} diff of numbers
+ * 
  */
 
-const oneMinusTwo = function (firstNumber, secondNumber) {
+function diff (firstNumber, secondNumber) {
     return firstNumber - secondNumber
 }
 
-console.log(oneMinusTwo(10,5))
+console.log(diff(10,5))

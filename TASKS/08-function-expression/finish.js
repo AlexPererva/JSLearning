@@ -11,7 +11,7 @@
  * 5. Результат вызовов функции выведите в консоль
  */
 const myFunction = function(name) {
-    return message = `Hello, ${name}`
+    return `Hello, ${name}`
 }
 
 console.log(myFunction('Alex'))
