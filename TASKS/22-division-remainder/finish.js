@@ -10,3 +10,8 @@
 
 const myNumber1 = 10 // 10 = 3 + 3 + 3 + 1
 const myNumber2 = 3
+
+// Priorities = 13
+// Associations = letf-to-right
+
+console.log(myNumber1 % myNumber2)
