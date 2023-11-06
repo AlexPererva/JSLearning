@@ -3,12 +3,12 @@
  * Измените код так, чтобы ошибка исчезла
  */
 
-const myFavoriteAnimal = 'Monkey'
+let myFavoriteAnimal = 'Monkey' // FIX <--changed const to let
 
 console.log(myFavoriteAnimal)
 // 'Monkey'
 
-const myFavoriteAnimal = 'Cat'
+myFavoriteAnimal = 'Cat' // FIX <-- removed const to use already existing variable declarated via let
 
 console.log(myFavoriteAnimal)
 // 'Cat'
