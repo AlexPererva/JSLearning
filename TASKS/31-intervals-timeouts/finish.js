@@ -12,3 +12,14 @@
  * "Сообщение номер 4"
  * "Сообщение номер 5"
  */
+
+let i = 1
+
+const printerMessage = setInterval(() => {
+    console.log('Message number ' + i)
+    i++
+}, 2000)
+
+setTimeout(() => {
+    clearInterval(printerMessage)
+}, 12000)
