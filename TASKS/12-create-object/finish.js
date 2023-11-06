@@ -15,7 +15,7 @@ const myObject = {
     favoriteNumber: 11
 }
 const message = 'My name is ' + myObject.name + ' ' + myObject.surname + ' and my favorite number is ' + myObject.favoriteNumber
-const messageV2 = `My name is ${myObject.name} ${myObject.surname} and my favorite number is ${myObject.favoriteNumber}`
-
 console.log(message)
+
+const messageV2 = `My name is ${myObject.name} ${myObject.surname} and my favorite number is ${myObject.favoriteNumber}`
 console.log(messageV2)
