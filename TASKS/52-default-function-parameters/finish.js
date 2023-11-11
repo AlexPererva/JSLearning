@@ -14,8 +14,7 @@
  * Внимательно сравните свои результаты с результатами тестовых вызовов
  */
 
-function weatherForecast(city, weather) {
-    weather = weather !== undefined ? weather : 'Nice weather'
+function weatherForecast(city, weather= 'Nice weather') {
     return `Prognoz pogody for ${city}: ${weather}`
 }
 
