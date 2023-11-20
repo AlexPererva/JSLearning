@@ -16,3 +16,12 @@ sumNumbers(10, 20, 5)
 
 sumNumbers(2, 5, 80, 1, 10, 12)
 // 110
+
+function sumNumbers() {
+    let sum = 0 
+    for (let i = 0; i < arguments.length; i++) {
+        sum += arguments[i]
+    }
+    console.log(sum)
+    return sum    
+}
